@@ -83,5 +83,6 @@ jobs:
           test -d frontend/src || (echo "Нет папки frontend/src" && exit 1)
 
           test -d docs || (echo "Нет папки docs" && exit 1)
+          test -f docs/zhdat_nedolgo.yml || (echo "Нет docs/delivery-system-diagram.yml" && exit 1)
 
           echo "Структура проекта корректна"
