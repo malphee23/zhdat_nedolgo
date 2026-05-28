@@ -28,7 +28,7 @@ jobs:
       - name: Запуск тестов backend
         run: |
           cd backend
-          pytest -v
+          python -m pytest -v
 
   frontend-build:
     name: Сборка frontend
